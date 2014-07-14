@@ -1,5 +1,5 @@
 function init() {
-    var map = new OpenLayers.Map("canvas");
+    var map = new OpenLayers.Map("map_canvas");
     var mapnik = new OpenLayers.Layer.OSM();
     map.addLayer(mapnik);
 
